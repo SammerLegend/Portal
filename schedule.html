@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Portal | Schedule</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <div class="brand" aria-label="Student Portal Home">
+          <span class="brand-mark">S</span>
+          <div>
+            <strong>Student Portal</strong>
+            <small>Learning Hub</small>
+          </div>
+        </div>
+
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          ☰
+        </button>
+
+        <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+          <a class="nav-link" href="index.html">Dashboard</a>
+          <a class="nav-link" href="courses.html">Courses</a>
+          <a class="nav-link active" href="schedule.html">Schedule</a>
+          <a class="nav-link" href="grades.html">Grades</a>
+          <a class="nav-link" href="profile.html">Profile</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container page-shell">
+      <section class="page-heading">
+        <p class="eyebrow">Weekly planner</p>
+        <h1>Class schedule</h1>
+      </section>
+
+      <section class="panel timetable-wrap">
+        <table class="timetable">
+          <thead>
+            <tr>
+              <th>Time</th>
+              <th>Thursday</th>
+              <th>Saturday</th>
+              <th>Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>7:00 AM</td>
+              <td>Major subject</td>
+              <td>Major subject</td>
+              <td>Classes begin</td>
+            </tr>
+            <tr>
+              <td>10:00 AM</td>
+              <td>Major subject</td>
+              <td>Major subject</td>
+              <td>Major classes continue</td>
+            </tr>
+            <tr>
+              <td>1:30 PM</td>
+              <td>P.E. 3</td>
+              <td>Major subject</td>
+              <td>PE ends at 1:30 PM</td>
+            </tr>
+            <tr>
+              <td>4:30 PM</td>
+              <td>Free time</td>
+              <td>Science, Technology &amp; Society</td>
+              <td>Break / free schedule</td>
+            </tr>
+            <tr>
+              <td>7:00 PM</td>
+              <td>Rizal: Life Works &amp; Writing</td>
+              <td>STS continues until 7:30 PM</td>
+              <td>Final class of the day</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span data-year></span> Student Portal. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

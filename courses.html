@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Portal | Courses</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <div class="brand" aria-label="Student Portal Home">
+          <span class="brand-mark">SP</span>
+          <div>
+            <strong>Student Portal</strong>
+            <small>Learning Hub</small>
+          </div>
+        </div>
+
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          ☰
+        </button>
+
+        <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+          <a class="nav-link" href="index.html">Dashboard</a>
+          <a class="nav-link active" href="courses.html">Courses</a>
+          <a class="nav-link" href="schedule.html">Schedule</a>
+          <a class="nav-link" href="grades.html">Grades</a>
+          <a class="nav-link" href="profile.html">Profile</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container page-shell">
+      <section class="page-heading">
+        <p class="eyebrow">Academic record</p>
+        <h1>My courses</h1>
+      </section>
+
+      <section class="course-grid">
+        <article class="course-card panel">
+          <div class="course-topline">
+            <span class="course-code">IM 1</span>
+            <span class="course-badge success">Major</span>
+          </div>
+          <h2>Information Management 1</h2>
+          <p>Focused on information systems, data management, and structured organizational practices.</p>
+          <ul>
+            <li>Instructor: Sir Rex John Barinas</li>
+            <li>Schedule: Saturday, 7:00 AM</li>
+            <li>Subject type: Major</li>
+          </ul>
+        </article>
+
+        <article class="course-card panel">
+          <div class="course-topline">
+            <span class="course-code">PROG 2</span>
+            <span class="course-badge info">Major</span>
+          </div>
+          <h2>Programming 2</h2>
+          <p>Continues programming fundamentals with more advanced coding and application logic.</p>
+          <ul>
+            <li>Instructor: Sir Rex John Barinas</li>
+            <li>Schedule: Thursday, 7:00 AM</li>
+            <li>Subject type: Major</li>
+          </ul>
+        </article>
+
+        <article class="course-card panel">
+          <div class="course-topline">
+            <span class="course-code">DSA</span>
+            <span class="course-badge neutral">Major</span>
+          </div>
+          <h2>Data Structure &amp; Algorithm</h2>
+          <p>Develops an understanding of data organization, algorithm design, and efficiency.</p>
+          <ul>
+            <li>Instructor: Sir Rex John Barinas</li>
+            <li>Schedule: Thursday &amp; Saturday, 10:00 AM</li>
+            <li>Subject type: Major</li>
+          </ul>
+        </article>
+
+        <article class="course-card panel">
+          <div class="course-topline">
+            <span class="course-code">IPT</span>
+            <span class="course-badge success">Major</span>
+          </div>
+          <h2>Integrative Programming Technology</h2>
+          <p>Connects systems, software integration, and technology-driven application development.</p>
+          <ul>
+            <li>Instructor: Sir Rex John Barinas</li>
+            <li>Schedule: Saturday, 10:00 AM</li>
+            <li>Subject type: Major</li>
+          </ul>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span data-year></span> Student Portal. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
